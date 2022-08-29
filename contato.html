@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <!-- Aqui vai o seu menu -->
+      <nav class="menu-items">
+        <ul>
+          <li><a class="list-item" href="./home.html" target="_self">Home</a></li>
+          <li><a class="list-item" href="./about.html" target="_self">Sobre</a></li>
+          <li><a class="list-item" href="./contato.html" target="_self">Contato</a></li>
+          <li><a class="list-item" href="./horarios.html" target="_self">Serviços</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <main>
+      <header>
+        <!-- Aqui vai o seu header -->
+        <img class="logo" src="./img/logo.png" alt="Logotipo">
+      </header>
+
+      <div id="contato" class="content">
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+          <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+          <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        </svg> Endereço:</h2>
+        <p>Rua das Orquídeas, nº30, Centro. Cidade - BR</p>
+        <form name="submit" onsubmit="alert('Enviado')" method="post" target="_self" action="#">
+          <label>Nome: </label><input class="nome" type="text" name="nome">
+          <label>E-mail: </label><input class="email" type="email" name="email">
+          <label>Assunto: </label><input class="assunto" type="text" name="assunto">
+          <label>Mensagem: </label><input class="msg" type="text" name="mensagem">
+        </form>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar Formulário</button>
+        <!-- Os telefones de contato (celular e whatsapp) -->
+
+        <!-- Um Iframe com o Google Maps apontando o endereço da clínica -->
+        <!-- Aqui vai o seu conteúdo -->
+      </div>
+
+      <footer>
+        <!-- Aqui vai o seu rodapé -->
+        <div class="footer-social">
+          <a target="newtab" href="https://www.instagram.com/filipe_cdealmeida/">
+            <img class="img-social" src="./img/instagram-logo.png" alt="Meu Instagram">
+          </a>
+          <a target="newtab" href="https://www.linkedin.com/in/filipecalm/">
+            <img class="img-social" src="./img/linkedin-logo.png" alt="Meu LinkedIn">
+          </a>
+          <a target="newtab" href="https://www.facebook.com/filipecalmeida/">
+            <img class="img-social" src="./img/facebook-logo.png" alt="Meu Facebook">
+          </a>
+          <a target="newtab" href="https://twitter.com/filipecalm">
+            <img class="img-social" src="./img/twitter-logo.png" alt="Meu Twitter">
+          </a>
+          <a target="newtab" href="https://github.com/filipecalm">
+            <img class="img-social" src="./img/github-logo.png" alt="Meu Github">
+          </a>
+        </div>
+        <p class="items-center">feito com &#9829; por<span class="copy"> &copy;</span>Filipe Carneiro</p>
+      </footer>
+    </main>
+  </div>
+</body>
+
+</html>

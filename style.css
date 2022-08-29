@@ -1,0 +1,193 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.973);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.808);
+    padding: 10px 20px 0px;
+}
+
+header {
+    background-color: rgb(243, 98, 98);
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.list-item {
+    text-decoration: none;
+    color: rgb(255, 6, 6);
+    text-shadow: rgb(241, 236, 236) 0px 1px 1px;
+}
+
+#contato {
+    background: url(./img/img2.jpg);
+    height:57.6vh;
+    background-size: 1000px;
+    text-shadow: white 0px 0px 1px;
+    font-size: 16px;
+}
+
+#home {
+    background: url(./img/img1.jpg);
+    background-size: 1000px 500px;
+    height:55.1vh;
+}
+
+#about {
+    background: url(./img/img3.jpg);
+    height:52vh;
+    background-size: 995px 410px;
+    border: solid 1px;
+    text-shadow: white 0px 0px 1px;
+    font-size: 16px;
+}
+
+.servicos {
+    padding: 30px;
+    background: url(./img/img1.jpg);
+    height:52.2vh;
+    background-size: 995px 600px;
+    border: solid 1px;
+    font-size: 16px;
+}
+
+form {
+    display: grid;
+}
+
+.nome,
+.email,
+.assunto {
+    width: 20rem;
+}
+
+.msg {
+    width: 20rem;
+    height: 5rem;
+    margin-bottom: 1px;
+}
+
+button {
+	width: 10.1rem;
+	height: 2.2rem;
+    margin-top: 4px;
+	box-shadow: 0 .2rem .3rem #222;
+	border: .1rem solid rgb(228, 71, 71);
+	cursor: pointer;
+    background: rgba(223, 73, 73, 0.911);
+}
+
+button:active {
+	transform: translate(0, .1rem);
+	box-shadow: none;
+}
+
+.img-social {
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+footer {
+    background-color: rgb(243, 98, 98);
+    min-height: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social {
+    padding-top: 50px;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-center {
+    gap: 2px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border: 2px solid black;
+    background: rgba(241, 236, 236, 0.767);
+    margin-bottom: 15px;
+}
+
+.th{
+font-weight: bold;
+}
+
+td{
+    width: 130px;
+}
+
+aside{
+    color: darkblue;
+    position: absolute;
+    margin-left: 700px;
+}
+
+.lista-servicos {
+    text-align: justify;
+    width: 220px;
+}
+
+.mapouter {
+    position: absolute;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 600px;
+}
+
+
