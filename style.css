@@ -12,7 +12,6 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 
 main {
@@ -23,7 +22,7 @@ main {
 
 .menu {
     width: 15%;
-    background-color: rgba(255, 255, 255, 0.808);
+    background-color: rgba(228, 198, 198, 0.808);
     padding: 10px 20px 0px;
 }
 
@@ -60,7 +59,7 @@ li {
 
 #contato {
     background: url(./img/img2.jpg);
-    height:57.6vh;
+    height: 57.6vh;
     background-size: 1000px;
     text-shadow: white 0px 0px 1px;
     font-size: 16px;
@@ -69,25 +68,41 @@ li {
 #home {
     background: url(./img/img1.jpg);
     background-size: 1000px 500px;
-    height:55.1vh;
+    height: 55.1vh;
 }
 
 #about {
     background: url(./img/img3.jpg);
-    height:52vh;
-    background-size: 995px 410px;
+    height: 54.8vh;
+    background-size: 995px 500px;
     border: solid 1px;
     text-shadow: white 0px 0px 1px;
     font-size: 16px;
 }
 
+.about {
+    color: black;
+    margin-right: 50px;
+    padding: 5px;
+    max-width: 240px;
+    max-height: 400px;
+    background-color: rgba(233, 217, 217, 0.685);
+    font-size: 14px;
+    text-align: justify;
+}
+
 .servicos {
-    padding: 30px;
+    padding: 20px;
     background: url(./img/img1.jpg);
-    height:52.2vh;
+    height: 54.8vh;
     background-size: 995px 600px;
     border: solid 1px;
     font-size: 16px;
+}
+
+.gmap_canvas,
+table {
+    border-radius: 15px;
 }
 
 form {
@@ -101,28 +116,33 @@ form {
 }
 
 .msg {
-    width: 20rem;
-    height: 5rem;
+    min-width: 10rem;
+    min-height: 3rem;
+    max-width: 20rem;
+    max-height: 5rem;
     margin-bottom: 1px;
 }
 
 button {
-	width: 10.1rem;
-	height: 2.2rem;
+    width: 10.1rem;
+    height: 2.2rem;
     margin-top: 4px;
-	box-shadow: 0 .2rem .3rem #222;
-	border: .1rem solid rgb(228, 71, 71);
-	cursor: pointer;
+    box-shadow: 0 .2rem .3rem #222;
+    border: .1rem solid rgb(228, 71, 71);
+    cursor: pointer;
     background: rgba(223, 73, 73, 0.911);
 }
 
 button:active {
-	transform: translate(0, .1rem);
-	box-shadow: none;
+    transform: translate(0, .1rem);
+    box-shadow: none;
+}
+
+figure {
+    margin: 0;
 }
 
 .img-social {
-    margin: 0;
     width: 2rem;
     height: 2rem;
     border-radius: 100%;
@@ -157,15 +177,15 @@ table {
     margin-bottom: 15px;
 }
 
-.th{
-font-weight: bold;
+.th {
+    font-weight: bold;
 }
 
-td{
+td {
     width: 130px;
 }
 
-aside{
+aside {
     color: darkblue;
     position: absolute;
     margin-left: 700px;
@@ -189,5 +209,3 @@ aside{
     height: 200px;
     width: 600px;
 }
-
-
